@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Celebrity Dating</title>
+</head>
+<body>
+
+ <div class="container">
+   <h1>Match Made in Hollywood Heaven</h1>
+   <p>Hi there!  Do you dream of dating a celebrity? If so, we can tell you who your dream partner would be</p>
+
+   <form id="match-making">
+     <label for="gender">What is the gender of the person you would like to date?</label>
+     <select id="gender">
+      <option value="Woman">Woman</option>
+      <option value="Man">Man</option>
+      <option value="Non-Binary">Non-Binary</option>
+      <option value="Any">Any</option>
+     </select>
+     <label for="genre">Who is sexier, a musician or an actor?</label>
+     <select id="genre">
+       <option value="Musician">Musican</option>
+       <option value="Actor">Actor</option>
+     </select>
+
+     <button type="submit" class="btn">Match me up!</button>
+   </form>
+
+   <div id="match"> 
+     <p>You and <span id="partner"></span> will make a perfect Hollywood pair!</p>
+   </div>
+ </div>
+
+</body>
+</html>
